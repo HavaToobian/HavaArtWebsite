@@ -1,43 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shop — Hava Toobian</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Artwork by Hava Toobian, an artist based in Dallas, Texas.">
+  <meta name="theme-color" content="#ffffff">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&amp;family=Geo:ital@1&amp;family=Quantico:ital,wght@1,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=d3ae9b566624">
+  <script src="js/site.js?v=9300ba367d82" defer></script>
 </head>
-<body>
+<body class="page-text">
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <h1 class="site-title">Hava Toobian</h1>
-    <nav class="site-nav">
-      <a href="index.html">Home</a>
-      <a href="gallery1.html">Gallery 1</a>
-      <a href="gallery2.html">Gallery 2</a>
-      <a href="about.html">About</a>
-      <a href="shop.html" class="active">Shop</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <a class="site-title" href="index.html">Hava Toobian</a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="gallery1.html">2025</a><a href="gallery2.html">2024</a><a href="shop.html" aria-current="page">Shop</a><a href="contact.html">Contact</a></nav>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false" data-menu-toggle hidden><span></span><span></span><span></span></button>
   </header>
-
-  <main>
-    <h2 class="page-title">Shop</h2>
-    <div class="simple-page">
-      <p>
-        Original artwork and prints are available for purchase. Reach out
-        directly for pricing, availability, and shipping, or visit the
-        online store linked below.
-      </p>
-      <a class="button" href="contact.html">Inquire about a piece</a>
-      <!--
-        If you set up an online store (Etsy, Big Cartel, Shopify, etc.),
-        replace the link above or add another button, e.g.:
-        <a class="button" href="https://your-store-url.com" target="_blank" rel="noopener">Visit Store</a>
-      -->
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    &copy; 2026 Hava Toobian. All rights reserved.
-  </footer>
+  <main id="main" class="text-main"><h1>Shop</h1><p>For available work, pricing, and purchase inquiries, please get in touch.</p><p><a class="text-link" href="mailto:hava@havatoobian.com">Inquire about a piece</a></p></main>
 </body>
 </html>
